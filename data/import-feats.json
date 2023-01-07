@@ -1305,7 +1305,7 @@
     "name": "Action Hero Stunt",
     "tags": "-",
     "prerequisites": "Cool Conduct Rank 1",
-    "frequency": "Daily/10 – Free Action",
+    "frequency": "Daily x3 – Free Action",
     "effect": "Trigger: Your Pokémon makes a Skill Check for a dramatic, high risk action:  \nInstead of using a Skill for this Check, your Pokémon rolls their Cool Dice from Poffins and adds their number of Cool Dice from Stats as a modifier. For example, a Pokémon with 5d6 Cool from Poffins and 2d6 from Attack rolls 5d6+2. An example trigger is charging into a burning building for a heroic rescue. Skill Checks invoked by Intercepting attacks, Combat Maneuvers, Moves, and Abilities don’t trigger this Feature."
   },
   {
@@ -2038,7 +2038,7 @@
   },
   {
     "name": "Accessorize",
-    "tags": "-",
+    "tags": "[+Any]",
     "prerequisites": "Dashing Makeover, one Fashionista Skill at Adept",
     "frequency": "Static",
     "effect": "You may wear and benefit from two Accessory Slot Items at once. The two items must be of different types and must not share an effect. For example, a Fire Brace cannot be paired with another Fire Brace or a Fire Plate, but it could be paired with an Ice Brace, a Fire Booster, or a Stat Booster."
