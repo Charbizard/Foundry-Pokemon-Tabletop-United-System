@@ -127,7 +127,7 @@
   },
   {
     "name": "Capricious Whirl",
-    "tags": "[Orders][Stratagem]",
+    "tags": "[Orders] [Stratagem]",
     "prerequisites": "Trickster Orders",
     "frequency": "Bind 2 AP – Standard Action",
     "effect": "Target: Your Pokémon\nEffect: While this Feature is Bound, the target has a +3 bonus to its Evasion but deals 5 less damage with all damaging attacks."
@@ -344,35 +344,35 @@
   },
   {
     "name": "Capture Specialist",
-    "tags": "[Class][+Speed]",
+    "tags": "[Class] [+Speed]",
     "prerequisites": "Acrobatics, Athletics, Stealth, or Survival at Novice; Guile, or Perception at Novice",
     "frequency": "Static",
     "effect": "You gain two Capture Techniques of your choice. You must meet any prerequisites of the Technique.\nCapture Techniques: Capture Skills, Curve Ball, Devitalizing Throw, Fast Pitch, Snare, Tools of the Trade, Catch Combo, False Strike, Relentless Pursuit"
   },
   {
     "name": "Advanced Capture Techniques Rank 1",
-    "tags": "[Ranked 4][+Speed]",
+    "tags": "[Ranked 4] [+Speed]",
     "prerequisites": "Capture Specialist",
     "frequency": "Static",
     "effect": "You gain two Capture Techniques of your choice. You must meet any prerequisites of the Technique. You may qualify for Advanced Capture Techniques’ prerequisites with the Acrobatics, Athletics, Stealth, Survival, Guile, or Perception Skills only."
   },
   {
     "name": "Advanced Capture Techniques Rank 2",
-    "tags": "[Ranked 4][+Speed]",
+    "tags": "[Ranked 4] [+Speed]",
     "prerequisites": "Capture Specialist, any 2 Skills at Adept Rank",
     "frequency": "Static",
     "effect": "You gain two Capture Techniques of your choice. You must meet any prerequisites of the Technique. You may qualify for Advanced Capture Techniques’ prerequisites with the Acrobatics, Athletics, Stealth, Survival, Guile, or Perception Skills only."
   },
   {
     "name": "Advanced Capture Techniques Rank 3",
-    "tags": "[Ranked 4][+Speed]",
+    "tags": "[Ranked 4] [+Speed]",
     "prerequisites": "Capture Specialist, any 2 Skills at Expert Rank",
     "frequency": "Static",
     "effect": "You gain two Capture Techniques of your choice. You must meet any prerequisites of the Technique. You may qualify for Advanced Capture Techniques’ prerequisites with the Acrobatics, Athletics, Stealth, Survival, Guile, or Perception Skills only."
   },
   {
     "name": "Advanced Capture Techniques Rank 4",
-    "tags": "[Ranked 4][+Speed]",
+    "tags": "[Ranked 4] [+Speed]",
     "prerequisites": "Capture Specialist, any 3 Skills at Expert Rank",
     "frequency": "Static",
     "effect": "You gain two Capture Techniques of your choice. You must meet any prerequisites of the Technique. You may qualify for Advanced Capture Techniques’ prerequisites with the Acrobatics, Athletics, Stealth, Survival, Guile, or Perception Skills only."
@@ -417,7 +417,7 @@
     "tags": "-",
     "prerequisites": "Leadership",
     "frequency": "At-Will – Swift Action",
-    "effect": "Trigger: You give [Orders] with a Frequency of At-Will that have targets\nEffect: You may target up to two additional Allies with the [Orders]."
+    "effect": "Trigger: You give [Orders] with a Frequency of At-Will that have targets\nEffect: You may target up to two additional Allies with the [Orders].\nThis may be used with [Orders] that are have AP costs, but the AP Cost must be paid separately for each target if so."
   },
   {
     "name": "Complex Orders",
@@ -586,20 +586,6 @@
     "prerequisites": "Move Tutor, one Mentor Skill at Master Rank",
     "frequency": "Static",
     "effect": "Your Pokémon may have up to 4 Moves from their Move List come from TMs or Move Tutors."
-  },
-  {
-    "name": "Cheerleader",
-    "tags": "[Class]",
-    "prerequisites": "Inspired Training, Novice Charm",
-    "frequency": "X AP – Free Action",
-    "effect": "Trigger: You use [Orders]\nEffect: Choose Cheered, Excited, or Motivated. All allies affected by the triggering effect gain the chosen condition.  This Feature costs 0 AP if the triggering effect affects only one ally, and costs 1 AP if it affects two or more.  See Extras - Class Mechanics for details."
-  },
-  {
-    "name": "Cheer Brigade",
-    "tags": "-",
-    "prerequisites": "Cheerleader",
-    "frequency": "At-Will – Extended Action",
-    "effect": "Target: Your Pokémon with at least 2 Tutor Points remaining\nEffect: Your Pokémon loses 2 Tutor Points and gains the Friend Guard Ability."
   },
   {
     "name": "Gleeful Interference",
@@ -795,21 +781,21 @@
     "tags": "[+Speed]",
     "prerequisites": "Rider",
     "frequency": "Static",
-    "effect": "While you are Mounted, you and your Mount each use the highest of each other’s Speed Evasion. If both you and your Mount have the same Speed Evasion, you instead each receive a +1 bonus to Speed Evasion. Whenever one of you receives Initiative, either of you may take your turn. When the next person would receive initiative, the person that did not take their turn then takes it."
+    "effect": "While you are Mounted, you and your Mount each use the highest of each other’s Speed Evasion. If both you and your Mount have the same Speed Evasion, you instead each run Upeceive a +1 bonus to Speed Evasion. Whenever one of you receives Initiative, either of you may take your turn. When the next person would receive initiative, the person that did not take their turn then takes it."
   },
   {
     "name": "Conqueror’s March",
     "tags": "[Orders] [+Speed]",
     "prerequisites": "Ramming Speed, Adept Acrobatics or Athletics",
     "frequency": "At-Will – Standard Action",
-    "effect": "Target: Your Pokémon with Run Up\nEffect: This round, if being used as a Mount, the target may use Dash, Burst, Blast, Cone, or Line range Moves with a range of Pass instead of their usual range."
+    "effect": "Target: Your Pokémon with Rock Head\nEffect: This round, if being used as a Mount, the target may use Dash, Burst, Blast, Cone, or Line range Moves with a range of Pass instead of their usual range."
   },
   {
     "name": "Ramming Speed",
     "tags": "[+Speed]",
     "prerequisites": "Rider",
     "frequency": "At-Will - Extended Action",
-    "effect": "Target: Your Pokémon with at least 2 Tutor Points\nEffect: The target loses 2 Tutor Points and gains the Run Up Ability."
+    "effect": "Target: Your Pokémon with at least 2 Tutor Points\nEffect: The target loses 2 Tutor Points and gains the Rock Head Ability."
   },
   {
     "name": "Lean In",
@@ -830,7 +816,7 @@
     "tags": "[+Speed]",
     "prerequisites": "Conqueror's March, Expert Acrobatics or Athletics",
     "frequency": "Scene x2 – Free Action",
-    "effect": "Trigger: Your Mount with Run Up makes a Damage Roll for a Dash or Pass Move\nEffect: Your Pokémon adds their Speed Stat in addition to their normal attacking Stat to their Damage Roll. The target gains Damage Reduction against this attack equal to their own Speed Stat."
+    "effect": "Trigger: Your Mount with Rock Head makes a Damage Roll for a Dash or Pass Move\nEffect: Your Pokémon adds their Speed Stat in addition to their normal attacking Stat to their Damage Roll. The target gains Damage Reduction against this attack equal to their own Speed Stat."
   },
   {
     "name": "Taskmaster",
@@ -1284,15 +1270,15 @@
     "name": "Cool Conduct Rank 1",
     "tags": "[Ranked 2]",
     "prerequisites": "Style Expert, Cool as Chosen Stat, Novice Command",
-    "frequency": "X AP – Special",
-    "effect": "Your Pokémon with at least 3d6 in their Cool Stat from Poffins may activate Cool Conduct as a Standard Action to perform one of the following Moves. They must still follow frequency limits as usual for these Moves. X is the Rank of the chosen Move.\nRank 1: Focus Energy, Noble Roar"
+    "frequency": "1 AP – Special",
+    "effect": "Your Pokémon with at least 3d6 in their Cool Stat from Poffins may activate Cool Conduct as a Standard Action to perform one of the following Moves. They must still follow frequency limits as usual for these Moves.\nRank 1: Focus Energy, Noble Roar"
   },
   {
     "name": "Cool Conduct Rank 2",
     "tags": "[Ranked 2]",
     "prerequisites": "Expert Command",
-    "frequency": "X AP – Special",
-    "effect": "Your Pokémon with at least 3d6 in their Cool Stat from Poffins may activate Cool Conduct as a Standard Action to perform one of the following Moves. They must still follow frequency limits as usual for these Moves. X is the Rank of the chosen Move.\nRank 2: Roar, Double Team"
+    "frequency": "1 AP – Special",
+    "effect": "Your Pokémon with at least 3d6 in their Cool Stat from Poffins may activate Cool Conduct as a Standard Action to perform one of the following Moves. They must still follow frequency limits as usual for these Moves.\nRank 2: Roar, Double Team"
   },
   {
     "name": "Rule of Cool",
@@ -1312,15 +1298,15 @@
     "name": "Cute Cuddle Rank 1",
     "tags": "[Ranked 2]",
     "prerequisites": "Style Expert, Cute as Chosen Stat, Novice Charm",
-    "frequency": "X AP – Special",
-    "effect": "Your Pokémon with at least 3d6 in their Cute Stat from Poffins may activate Cute Cuddle as a Standard Action to perform one of the following Moves. They must still follow frequency limits as usual for these Moves. X is the Rank of the chosen Move.\nRank 1: Charm, Block"
+    "frequency": "1 AP – Special",
+    "effect": "Your Pokémon with at least 3d6 in their Cute Stat from Poffins may activate Cute Cuddle as a Standard Action to perform one of the following Moves. They must still follow frequency limits as usual for these Moves.\nRank 1: Charm, Block"
   },
   {
     "name": "Cute Cuddle Rank 2",
     "tags": "[Ranked 2]",
     "prerequisites": "Expert Charm",
-    "frequency": "X AP – Special",
-    "effect": "Your Pokémon with at least 3d6 in their Cute Stat from Poffins may activate Cute Cuddle as a Standard Action to perform one of the following Moves. They must still follow frequency limits as usual for these Moves. X is the Rank of the chosen Move.\nRank 2: Teeter Dance, Attract"
+    "frequency": "1 AP – Special",
+    "effect": "Your Pokémon with at least 3d6 in their Cute Stat from Poffins may activate Cute Cuddle as a Standard Action to perform one of the following Moves. They must still follow frequency limits as usual for these Moves.\nRank 2: Teeter Dance, Attract"
   },
   {
     "name": "Gleeful Steps",
@@ -1929,7 +1915,7 @@
     "tags": "-",
     "prerequisites": "Chef",
     "frequency": "1 AP – Free Action",
-    "effect": "Trigger: You or your Pokémon trade in a Digestion/Food Buff\nEffect: The target gains Temporary Hit Points equal to your Intuition Rank doubled. These Temporary Hit Points stack from any Temporary Hit Points granted by Accentuated Taste, the Digestion/Food Buff or by the Lunchbox Ability.\nRecipe - Hearty Meal"
+    "effect": "Trigger: You or your Pokémon trade in a Food Buff\nEffect: The target gains Temporary Hit Points equal to your Intuition Rank doubled. These Temporary Hit Points stack from any Temporary Hit Points granted by Accentuated Taste, the Food Buff or by the Lunchbox Ability.\nRecipe - Hearty Meal"
   },
   {
     "name": "Culinary Appreciation",
@@ -1943,14 +1929,14 @@
     "tags": "-",
     "prerequisites": "Chef, Adept Intuition",
     "frequency": "Static",
-    "effect": "Whenever you create a Snack with a Chef Feature, you may assign it a Taste chosen from Salty, Sour, Spicy, Dry, and Sweet. Tasty Snacks must be assigned their corresponding Taste. Whenever a Pokémon trades in a Digestion/Food Buff from a Snack with an assigned Taste they do not dislike, they gain one of the following bonuses based on the assigned Taste:\n»» Salty: The user gains 5 Temporary Hit Points. This stacks with any Temporary Hit Points gained through Chef Features, the Lunchbox Ability, and the Digestion/Food Buff.\n»» Spicy: Increase the user’s Critical Hit Range by 1.\n»» Sour: Increase the user’s Evasion against damaging attacks by 1.\n»» Dry: Increase the user’s Effect Range of all attacks by 1.\n»» Bitter: The user gets a +1 Bonus to all Save Checks.\n»» Sweet: Increase the user’s Initiative by 5.\nMay Playtest Errata: This bonus can only be gained once per item, even if Complex Aftertaste is used to give an additional Digestion/Food Buff for the item.\nRecipe - Preserves"
+    "effect": "Whenever you create a Snack with a Chef Feature, you may assign it a Taste chosen from Salty, Sour, Spicy, Dry, and Sweet. Tasty Snacks must be assigned their corresponding Taste. Whenever a Pokémon trades in a Food Buff from a Snack with an assigned Taste they do not dislike, they gain one of the following bonuses based on the assigned Taste:\n»» Salty: The user gains 5 Temporary Hit Points. This stacks with any Temporary Hit Points gained through Chef Features, the Lunchbox Ability, and the Food Buff.\n»» Spicy: Increase the user’s Critical Hit Range by 1.\n»» Sour: Increase the user’s Evasion against damaging attacks by 1.\n»» Dry: Increase the user’s Effect Range of all attacks by 1.\n»» Bitter: The user gets a +1 Bonus to all Save Checks.\n»» Sweet: Increase the user’s Initiative by 5.\nMay Playtest Errata: This bonus can only be gained once per item, even if Complex Aftertaste is used to give an additional Food Buff for the item.\nRecipe - Preserves"
   },
   {
     "name": "Complex Aftertaste",
     "tags": "-",
     "prerequisites": "Accentuated Taste",
     "frequency": "1 AP – Free Action",
-    "effect": "Trigger: You or an ally trades in a Digestion/Food Buff from an item with a Taste\nEffect: The target gains a Digestion/Food Buff according to the Taste of the Snack granting the Buff. This Digestion/Food Buff matches that of the corresponding basic Tasty Snack recipe.\nRecipe - Leftovers"
+    "effect": "Trigger: You or an ally trades in a Food Buff from an item with a Taste\nEffect: The target gains a Food Buff according to the Taste of the Snack granting the Buff. This Food Buff matches that of the corresponding basic Tasty Snack recipe.\nRecipe - Leftovers"
   },
   {
     "name": "Dietician",
@@ -2027,7 +2013,7 @@
     "tags": "-",
     "prerequisites": "Fashionista",
     "frequency": "Bind 2 AP – Extended Action",
-    "effect": "Target: A Trainer or Pokémon\nEffect: When you activate Dashing Makeover, choose one Equipment or Held Item you can create. While this Feature is Bound, the target gains the effects of the chosen item, as long as they would normally be able to equip it (e.g.: Trainers cannot equip Incense Items).They do not need to take up an Equipment or Held Item slot to gain this benefit. A target may only be affected by one instance of Dashing Makeover at a time.\nRecipe - Practical Fashion"
+    "effect": "Target: A Trainer or Pokémon\nEffect: When you activate Dashing Makeover, choose one Equipment or Held Item you can create via Fashionista. While this Feature is Bound, the target gains the effects of the chosen item, as long as they would normally be able to equip it (e.g.: Trainers cannot equip Incense Items).They do not need to take up an Equipment or Held Item slot to gain this benefit. A target may only be affected by one instance of Dashing Makeover at a time.\nRecipe - Practical Fashion"
   },
   {
     "name": "Style is Eternal",
@@ -2374,8 +2360,8 @@
   },
   {
     "name": "Athlete",
-    "tags": "[Class] [+HP]",
-    "prerequisites": "Novice Athletics, One of Athletic Prowess, Mounted Prowess, Power Boost, Stamina, or Swimmer",
+    "tags": "[Class][+HP]",
+    "prerequisites": "Novice Athletics, One of Athletic Initiative, Mounted Prowess, Power Boost, Stamina, or Swimmer",
     "frequency": "At-Will – Extended Action",
     "effect": "After an hour of exercise, an Athlete may choose two different Stats besides HP; both of those stats become Trained Stats. The default State of Trained Stats is +1 Combat Stages instead of 0. An Athlete may have two Trained Stats at a time."
   },
@@ -2815,7 +2801,7 @@
   },
   {
     "name": "Aura Guardian",
-    "tags": "Class] [+Attack or Special Attack]",
+    "tags": "[Class] [+Attack or Special Attack]",
     "prerequisites": "Elemental Connection (Fighting)",
     "frequency": "Static",
     "effect": "Choose two of Detect, Vacuum Wave, or Force Palm. You learn the chosen Moves."
@@ -2878,7 +2864,7 @@
   },
   {
     "name": "Battle Synchronization",
-    "tags": "-",
+    "tags": "[Orders]",
     "prerequisites": "Channeler",
     "frequency": "Scene x3 – Standard Action",
     "effect": "For one full round, whenever a Channeled Pokémon successfully hits a foe, all Channeled Pokémon gain +1 Accuracy and +1 Evasion against that foe for the duration of this Feature."
@@ -4012,7 +3998,7 @@
   },
   {
     "name": "Call the Dragon's Rage",
-    "tags": "[+Attack][Weapon]",
+    "tags": "[+Attack] [Weapon]",
     "prerequisites": "Bare the Dragon's Claws, Master Command or Intimidate",
     "frequency": "Static",
     "effect": "You learn the Moves Dragon Rush and Outrage. You may use these Moves as Weapon Attacks when wielding Melee Weapons."
@@ -4540,14 +4526,14 @@
     "tags": "[Ranked 2] [+Defense]",
     "prerequisites": "Adept Combat or Survival",
     "frequency": "Static",
-    "effect": "Each Rank, choose one of Sturdy, Rock Head, Run Up, or Sand Veil. You gain the chosen Ability. If you choose Sand Veil, you may consider sand a “solid surface” for the purposes of Stone Stance."
+    "effect": "Each Rank, choose one of Sturdy, Rock Head, or Sand Veil. You gain the chosen Ability. If you choose Sand Veil, you may consider sand a “solid surface” for the purposes of Stone Stance."
   },
   {
     "name": "Rock Power Rank 2",
     "tags": "[Ranked 2] [+Defense]",
     "prerequisites": "Expert Combat or Survival",
     "frequency": "Static",
-    "effect": "Each Rank, choose one of Sturdy, Rock Head, Run Up, or Sand Veil. You gain the chosen Ability. If you choose Sand Veil, you may consider sand a “solid surface” for the purposes of Stone Stance."
+    "effect": "Each Rank, choose one of Sturdy, Rock Head, or Sand Veil. You gain the chosen Ability. If you choose Sand Veil, you may consider sand a “solid surface” for the purposes of Stone Stance."
   },
   {
     "name": "Shards of Stone",
@@ -4670,7 +4656,7 @@
   },
   {
     "name": "Backpacker",
-    "tags": "[Class] [+Speed] [5-15 Playtest]",
+    "tags": "[Class] [+Speed]",
     "prerequisites": "Traveler",
     "frequency": "Static",
     "effect": "You gain the Skill Enhancement Edge. You then gain an instance of the Skill Stunt Edge for each of the two Skills you chose with Skill Enhancement."
@@ -4733,7 +4719,7 @@
   },
   {
     "name": "Capsule Science",
-    "tags": "[Gadgeteer Research Field] [Branch] [5-15 Playtest]",
+    "tags": "[Gadgeteer Research Field] [Branch]",
     "prerequisites": "Improvised Gadgets, Expert Technology Education",
     "frequency": "Static",
     "effect": "You learn the Cap Cannon, Cap Ammo, and Wonder Launcher recipes, and you gain the following additional effects when using those items.\n\n»» Bean Caps: You gain a +10 Damage Bonus when using Bean Caps.\n»» Glue Caps: Your Effect Range when using Glue Caps is increased by +3.\n»» Nets Caps: Targets affected by your Net Caps gain a -X penalty to all Damage Rolls, where X is your Technology Education Rank.\n»» Wonder Launcher: Whenever you apply an item to a target using the Wonder Launcher, they gain Temporary Hit Points equal to your Technology Education Rank."
@@ -4746,14 +4732,7 @@
     "effect": "Target: A willing Pokémon with one of the Capabilities listed below\nEffect: Choose one of the Capabilities below which the target Pokémon has. You create a consumable item with the effect below, depending on the chosen Capability. All unused items created with Enhanced Capsules are rendered inert after an Extended Rest (including modifications to other items).\n\n»» Glow: This item may be attached to a Wonder Launcher as a Standard Action to give the following effect for the rest of the Scene: Whenever you apply an Item to a target using this Wonder Launcher, that target gains the Illuminate Ability for one full round.\n»» Magnetic: This item may be loaded into a Cap Cannon to provide two Bean Cap Ammo. When fired, these Bean Caps cannot miss.\n»» Threaded: This item may be loaded into a Cap Cannon to provide two Glue Cap Ammo. When fired, they affect a Blast 2 instead of a single target.\n»» Zapper: This item may be loaded into a Cap Cannon as a single Net Cap Ammo. Targets trapped by this Net Cap are Suppressed while trapped. Targets immune to Electric-Type attacks are immune to this effect."
   },
   {
-    "name": "Breadth of Knowledge [Playtest]",
-    "tags": "[General Research Field] [Branch] [5-15 Playtest]",
-    "prerequisites": "Novice General Education",
-    "frequency": "Static",
-    "effect": "You gain three Edges for which you qualify. These Edges must be used to gain a Skill Edge with an Education Skill, or to gain an Edge that has an Education Skill as a Prerequisite that you meet."
-  },
-  {
-    "name": "Bookworm [Playtest]",
+    "name": "Bookworm",
     "tags": "[General Research Field] [Branch] [5-15 Playtest]",
     "prerequisites": "Breadth of Knowledge",
     "frequency": "Static",
@@ -4774,8 +4753,8 @@
     "effect": "Trigger: You or your Pokémon make a roll\nEffect: You may roll twice and keep the best result."
   },
   {
-    "name": "Cheerleader [Playtest]",
-    "tags": "[Class] [9-15 Playtest]",
+    "name": "Cheerleader",
+    "tags": "[Class]",
     "prerequisites": "Inspired Training, Novice Charm",
     "frequency": "At-Will – Extended Action",
     "effect": "Target: Your Pokémon with at least 2 Tutor Points remaining\nEffect: Your Pokémon loses 2 Tutor Points and gains the Friend Guard Ability."
@@ -4788,9 +4767,9 @@
     "effect": "Target: Up to two Allied Trainers\nEffect: Each target gains 1 Temporary Action Point.\n These Action Points disappear after one full Round."
   },
   {
-    "name": "Cheers [Playtest]",
-    "tags": "[9-15 Playtest]",
-    "prerequisites": "Cheerleader [Playtest]",
+    "name": "Cheers",
+    "tags": "[-]",
+    "prerequisites": "Cheerleader]",
     "frequency": "X AP – Swift Action",
     "effect": "Trigger: You use [Orders]\nEffect: The target or targets of the triggering [Orders] are Cheered for 1 full round. While Cheered, the target’s Combat Stages cannot be lowered by foe’s attacks, features, or abilities. This Feature costs 0 AP if the triggering effect affects only one ally, and costs 1 AP if it affects two or more."
   },
@@ -4802,9 +4781,9 @@
     "effect": "Whenever your Pokémon with Friend Guard\n targets an Ally with an Ability or Status Move, the\n targeted Ally becomes Cheered."
   },
   {
-    "name": "Bring It On! [Playtest]",
-    "tags": "[9-15 Playtest]",
-    "prerequisites": "Cheers [Playtest], Adept Charm",
+    "name": "Bring It On!",
+    "tags": "-",
+    "prerequisites": "Cheers, Adept Charm",
     "frequency": "1 AP – Free Action",
     "effect": "Effect: You may trigger Bring It On! whenever...\n»» A Cheered Ally takes Damage, to grant them 5\n Damage Reduction agains the triggering Damage.\n»» A Cheered Ally makes a Save Check, to grant them\n a +2 Bonus on that check.\n»» A Cheered Ally Takes a Breather, to grant them\n Temporary Hit Points equal to your Charm Rank.\nA target may benefit from each “Bring It On!” effect\n only once per Scene."
   },
